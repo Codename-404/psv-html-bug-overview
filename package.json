@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@photo-sphere-viewer/core": "^5.1.7",
+    "@photo-sphere-viewer/markers-plugin": "^5.1.7",
     "autoprefixer": "10.4.14",
     "next": "13.4.8",
     "postcss": "8.4.25",

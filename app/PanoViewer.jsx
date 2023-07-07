@@ -46,7 +46,14 @@ export default function PanoViewer() {
     markersPlugs.current.addMarker({
       id: id,
       position: { yaw: coords.yaw, pitch: coords.pitch },
+
+      //HTML placement has issue
       html: "HTML <b>marker</b> &hearts;",
+
+      //Imagelayer works perfectly fine
+      // imageLayer: "/vercel.svg",
+      // size: { width: 100, height: 100 },
+
       anchor: "bottom right",
       scale: [0.5, 1.5],
       style: {
